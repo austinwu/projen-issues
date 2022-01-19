@@ -1,11 +1,11 @@
-export * from "./kitchen";
+export * from './kitchen';
 
 export class Hello {
   public sayHello(name?: string): string {
-    return `hello, ${name || "world"}!`;
+    return `hello, ${name || 'world'}!`;
   }
 
   public sayGoodbye() {
-    return "see you next time!";
+    return 'see you next time!';
   }
 }

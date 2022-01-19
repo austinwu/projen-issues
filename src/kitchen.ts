@@ -1,6 +1,6 @@
 export class Kitchen {
   public assembleSandwich(...ingredients: string[]) {
-    return ["bread", ...ingredients, "bread"];
+    return ['bread', ...ingredients, 'bread'];
   }
 
   public bakeBread(dough: string) {
