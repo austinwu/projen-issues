@@ -76,12 +76,12 @@ new Kitchen()
 ##### `assembleSandwich` <a name="assembleSandwich" id="projen-issues.Kitchen.assembleSandwich"></a>
 
 ```typescript
-public assembleSandwich(ingredients: string)
+public assembleSandwich(ingredients: string[])
 ```
 
 ###### `ingredients`<sup>Required</sup> <a name="ingredients" id="projen-issues.Kitchen.assembleSandwich.parameter.ingredients"></a>
 
-- *Type:* string
+- *Type:* string[]
 
 ---
 
@@ -96,6 +96,39 @@ public bakeBread(dough: string)
 - *Type:* string
 
 ---
+
+
+
+
+### Sandwich <a name="Sandwich" id="projen-issues.Sandwich"></a>
+
+#### Initializers <a name="Initializers" id="projen-issues.Sandwich.Initializer"></a>
+
+```typescript
+import { Sandwich } from 'projen-issues'
+
+new Sandwich(bread: string, ingredients: string[])
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#projen-issues.Sandwich.Initializer.parameter.bread">bread</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-issues.Sandwich.Initializer.parameter.ingredients">ingredients</a></code> | <code>string[]</code> | *No description.* |
+
+---
+
+##### `bread`<sup>Required</sup> <a name="bread" id="projen-issues.Sandwich.Initializer.parameter.bread"></a>
+
+- *Type:* string
+
+---
+
+##### `ingredients`<sup>Required</sup> <a name="ingredients" id="projen-issues.Sandwich.Initializer.parameter.ingredients"></a>
+
+- *Type:* string[]
+
+---
+
 
 
 
