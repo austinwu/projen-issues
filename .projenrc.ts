@@ -1,4 +1,5 @@
-import { JsiiProject } from "projen";
+import { JsiiProject } from "projen/lib/cdk";
+
 const project = new JsiiProject({
   author: "Austin Wu",
   authorAddress: "austinwu32@gmail.com",
