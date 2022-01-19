@@ -1,3 +1,5 @@
+export * from './kitchen';
+
 export class Hello {
   public sayHello(name?: string): string {
     return `hello, ${name || 'world'}!`;
