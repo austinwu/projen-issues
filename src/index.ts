@@ -3,3 +3,6 @@ export class Hello {
     return 'hello, world!';
   }
 }
+
+// export submodules
+export * as bicycles from './bicycles';
